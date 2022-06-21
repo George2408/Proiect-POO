@@ -1,0 +1,38 @@
+<app-nav-bar></app-nav-bar>
+<div class="content">
+  <mat-card class="card" [routerLink]="'/list-view-authors'">
+    <mat-card-header>
+      <mat-card-title>Authors list</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="assets/Authors/famousAuthors.png" />
+    <mat-card-content>
+      <p>
+        The authors represent people in human history who through their works of
+        art, short stories, dramaturgy, poetry or stories have started trends in
+        culture, changed mentalities and revolutionized the thinking and
+        perception of the world.
+      </p>
+    </mat-card-content>
+    <!-- <mat-card-actions>
+      <button mat-button [routerLink]="'app-add-author'">Add an author</button>
+    </mat-card-actions> -->
+  </mat-card>
+
+  <mat-card class="card" [routerLink]="'/list-view-books'">
+    <mat-card-header>
+      <mat-card-title>Books list</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="assets/Books/Books.jpg" />
+    <mat-card-content>
+      <p>
+        We can consider the books as the creation of an author, his soul and
+        mental expression towards the world through his own eyes. Whoever has
+        access to these wonderful tools has mastered one of the most powerful
+        assets for a person, information.
+      </p>
+    </mat-card-content>
+    <!-- <mat-card-actions>
+      <button mat-button [routerLink]="'app-add-book'">Add an book</button>
+    </mat-card-actions> -->
+  </mat-card>
+</div>
